@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.app__container{
+    width: 100vw;
+    max-height: 100vh;
+    padding: 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    gap: 2rem;
+}

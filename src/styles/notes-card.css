@@ -1,0 +1,61 @@
+.card{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem 1rem;
+    border: 1px solid black;
+    border-radius: .5rem;
+    gap: 1rem;
+}
+
+.card__header{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.card__header__title{
+    font-size: 1.25rem;
+}
+
+.card__header__date{
+    font-size: .75rem;
+    opacity: .7;
+}
+
+.card__body{
+    height: 80%;
+    font-size: 1rem;
+}
+
+.card__action{
+    width: 100%;
+    height: 10%;
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0 0;
+    gap: .5rem;
+}
+
+.card__action__status{
+    padding: .5rem 1.25rem;
+    border-radius: .25rem;
+    font-size: .75rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.card__action__button{
+    display: flex;
+    gap: .5rem;
+}
+
+.card__action__button img{
+    width: 1.5rem;
+}

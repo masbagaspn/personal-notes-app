@@ -1,0 +1,7 @@
+.notes__container{
+    width: 100%;
+    height: calc(100% - 10vh);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
